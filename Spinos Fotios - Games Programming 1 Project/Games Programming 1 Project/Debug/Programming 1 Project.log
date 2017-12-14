@@ -1,0 +1,75 @@
+﻿  Skipping... (no relevant changes detected)
+  cTextureMgr.cpp
+  cTexture.cpp
+  cSprite.cpp
+  cSoundMgr.cpp
+  cSound.cpp
+  cSDL2WNDManager.cpp
+  cSDL2CTRManager.cpp
+  cSceneMgr.cpp
+  cRocket.cpp
+  cGame.cpp
+  cFontMgr.cpp
+  cFont.cpp
+  cFileHandler.cpp
+  cButtonMgr.cpp
+  cButton.cpp
+  cBullet.cpp
+  cBkGround.cpp
+  cAsteroid.cpp
+  cAlienShip.cpp
+  c2DMech.cpp
+  AsteroidsSDL.cpp
+cSDL2WNDManager.obj : error LNK2001: unresolved external symbol _SDL_GetError
+cSound.obj : error LNK2001: unresolved external symbol _SDL_GetError
+cSoundMgr.obj : error LNK2001: unresolved external symbol _SDL_GetError
+cTexture.obj : error LNK2001: unresolved external symbol _SDL_GetError
+cFont.obj : error LNK2001: unresolved external symbol _SDL_GetError
+cFontMgr.obj : error LNK2001: unresolved external symbol _SDL_GetError
+cGame.obj : error LNK2001: unresolved external symbol _SDL_GetError
+cSDL2CTRManager.obj : error LNK2001: unresolved external symbol _SDL_GetError
+cFont.obj : error LNK2019: unresolved external symbol _SDL_FreeSurface referenced in function "public: struct SDL_Texture * __thiscall cFont::createTextTexture(struct SDL_Renderer *,char const *,enum textType,struct SDL_Color,struct SDL_Color)" (?createTextTexture@cFont@@QAEPAUSDL_Texture@@PAUSDL_Renderer@@PBDW4textType@@USDL_Color@@3@Z)
+cFont.obj : error LNK2019: unresolved external symbol _SDL_CreateTextureFromSurface referenced in function "public: struct SDL_Texture * __thiscall cFont::createTextTexture(struct SDL_Renderer *,char const *,enum textType,struct SDL_Color,struct SDL_Color)" (?createTextTexture@cFont@@QAEPAUSDL_Texture@@PAUSDL_Renderer@@PBDW4textType@@USDL_Color@@3@Z)
+cFont.obj : error LNK2019: unresolved external symbol _TTF_OpenFont referenced in function "public: bool __thiscall cFont::loadFont(char const *,int)" (?loadFont@cFont@@QAE_NPBDH@Z)
+cFont.obj : error LNK2019: unresolved external symbol _TTF_RenderText_Solid referenced in function "public: struct SDL_Texture * __thiscall cFont::createTextTexture(struct SDL_Renderer *,char const *,enum textType,struct SDL_Color,struct SDL_Color)" (?createTextTexture@cFont@@QAEPAUSDL_Texture@@PAUSDL_Renderer@@PBDW4textType@@USDL_Color@@3@Z)
+cFont.obj : error LNK2019: unresolved external symbol _TTF_RenderText_Shaded referenced in function "public: struct SDL_Texture * __thiscall cFont::createTextTexture(struct SDL_Renderer *,char const *,enum textType,struct SDL_Color,struct SDL_Color)" (?createTextTexture@cFont@@QAEPAUSDL_Texture@@PAUSDL_Renderer@@PBDW4textType@@USDL_Color@@3@Z)
+cFont.obj : error LNK2019: unresolved external symbol _TTF_RenderText_Blended referenced in function "public: struct SDL_Texture * __thiscall cFont::createTextTexture(struct SDL_Renderer *,char const *,enum textType,struct SDL_Color,struct SDL_Color)" (?createTextTexture@cFont@@QAEPAUSDL_Texture@@PAUSDL_Renderer@@PBDW4textType@@USDL_Color@@3@Z)
+cFontMgr.obj : error LNK2019: unresolved external symbol _TTF_Init referenced in function "public: bool __thiscall cFontMgr::initFontLib(void)" (?initFontLib@cFontMgr@@QAE_NXZ)
+cFontMgr.obj : error LNK2019: unresolved external symbol _TTF_CloseFont referenced in function "public: void __thiscall cFontMgr::deleteFont(void)" (?deleteFont@cFontMgr@@QAEXXZ)
+cFontMgr.obj : error LNK2019: unresolved external symbol _TTF_Quit referenced in function "public: __thiscall cFontMgr::~cFontMgr(void)" (??1cFontMgr@@QAE@XZ)
+cGame.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function "public: void __thiscall cGame::cleanUp(struct SDL_Window *)" (?cleanUp@cGame@@QAEXPAUSDL_Window@@@Z)
+cGame.obj : error LNK2019: unresolved external symbol _SDL_GL_DeleteContext referenced in function "public: void __thiscall cGame::cleanUp(struct SDL_Window *)" (?cleanUp@cGame@@QAEXPAUSDL_Window@@@Z)
+cGame.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function "public: bool __thiscall cGame::getInput(bool)" (?getInput@cGame@@QAE_N_N@Z)
+cGame.obj : error LNK2019: unresolved external symbol _SDL_GetRendererOutputSize referenced in function "public: void __thiscall cGame::initialise(struct SDL_Window *,struct SDL_Renderer *)" (?initialise@cGame@@QAEXPAUSDL_Window@@PAUSDL_Renderer@@@Z)
+cGame.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function "public: void __thiscall cGame::initialise(struct SDL_Window *,struct SDL_Renderer *)" (?initialise@cGame@@QAEXPAUSDL_Window@@PAUSDL_Renderer@@@Z)
+cSDL2WNDManager.obj : error LNK2001: unresolved external symbol _SDL_SetRenderDrawColor
+cGame.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function "public: void __thiscall cGame::render(struct SDL_Window *,struct SDL_Renderer *)" (?render@cGame@@QAEXPAUSDL_Window@@PAUSDL_Renderer@@@Z)
+cGame.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function "public: void __thiscall cGame::initialise(struct SDL_Window *,struct SDL_Renderer *)" (?initialise@cGame@@QAEXPAUSDL_Window@@PAUSDL_Renderer@@@Z)
+cGame.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function "public: void __thiscall cGame::cleanUp(struct SDL_Window *)" (?cleanUp@cGame@@QAEXPAUSDL_Window@@@Z)
+cGame.obj : error LNK2019: unresolved external symbol _IMG_Quit referenced in function "public: void __thiscall cGame::cleanUp(struct SDL_Window *)" (?cleanUp@cGame@@QAEXPAUSDL_Window@@@Z)
+cSDL2CTRManager.obj : error LNK2019: unresolved external symbol _SDL_ClearError referenced in function "public: void __thiscall cSDL2CTRManager::CheckSDLError(int)" (?CheckSDLError@cSDL2CTRManager@@QAEXH@Z)
+cSDL2WNDManager.obj : error LNK2001: unresolved external symbol _SDL_ClearError
+cSDL2CTRManager.obj : error LNK2019: unresolved external symbol _SDL_NumJoysticks referenced in function "public: bool __thiscall cSDL2CTRManager::initCTR(void)" (?initCTR@cSDL2CTRManager@@QAE_NXZ)
+cSDL2CTRManager.obj : error LNK2019: unresolved external symbol _SDL_IsGameController referenced in function "public: bool __thiscall cSDL2CTRManager::initCTR(void)" (?initCTR@cSDL2CTRManager@@QAE_NXZ)
+cSDL2CTRManager.obj : error LNK2019: unresolved external symbol _SDL_GameControllerOpen referenced in function "public: bool __thiscall cSDL2CTRManager::initCTR(void)" (?initCTR@cSDL2CTRManager@@QAE_NXZ)
+cSDL2CTRManager.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "public: bool __thiscall cSDL2CTRManager::initCTR(void)" (?initCTR@cSDL2CTRManager@@QAE_NXZ)
+cSDL2WNDManager.obj : error LNK2001: unresolved external symbol _SDL_Init
+cSoundMgr.obj : error LNK2001: unresolved external symbol _SDL_Init
+cSDL2WNDManager.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function "public: bool __thiscall cSDL2WNDManager::initWND(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?initWND@cSDL2WNDManager@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z)
+cSDL2WNDManager.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function "public: bool __thiscall cSDL2WNDManager::initWND(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?initWND@cSDL2WNDManager@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z)
+cSound.obj : error LNK2019: unresolved external symbol _SDL_RWFromFile referenced in function "public: bool __thiscall cSound::load(char const *)" (?load@cSound@@QAE_NPBD@Z)
+cSound.obj : error LNK2019: unresolved external symbol _Mix_LoadWAV_RW referenced in function "public: bool __thiscall cSound::load(char const *)" (?load@cSound@@QAE_NPBD@Z)
+cSound.obj : error LNK2019: unresolved external symbol _Mix_LoadMUS referenced in function "public: bool __thiscall cSound::load(char const *)" (?load@cSound@@QAE_NPBD@Z)
+cSound.obj : error LNK2019: unresolved external symbol _Mix_PlayChannelTimed referenced in function "public: void __thiscall cSound::play(int)" (?play@cSound@@QAEXH@Z)
+cSound.obj : error LNK2019: unresolved external symbol _Mix_PlayMusic referenced in function "public: void __thiscall cSound::play(int)" (?play@cSound@@QAEXH@Z)
+cSoundMgr.obj : error LNK2019: unresolved external symbol _Mix_Quit referenced in function "protected: __thiscall cSoundMgr::~cSoundMgr(void)" (??1cSoundMgr@@IAE@XZ)
+cSoundMgr.obj : error LNK2019: unresolved external symbol _Mix_OpenAudio referenced in function "public: bool __thiscall cSoundMgr::initMixer(void)" (?initMixer@cSoundMgr@@QAE_NXZ)
+cSoundMgr.obj : error LNK2019: unresolved external symbol _Mix_CloseAudio referenced in function "protected: __thiscall cSoundMgr::~cSoundMgr(void)" (??1cSoundMgr@@IAE@XZ)
+cSprite.obj : error LNK2019: unresolved external symbol _SDL_HasIntersection referenced in function "public: bool __thiscall cSprite::collidedWith(struct SDL_Rect *,struct SDL_Rect *)" (?collidedWith@cSprite@@QAE_NPAUSDL_Rect@@0@Z)
+cTexture.obj : error LNK2019: unresolved external symbol _SDL_QueryTexture referenced in function "public: struct SDL_Rect __thiscall cTexture::getTextureRect(void)" (?getTextureRect@cTexture@@QAE?AUSDL_Rect@@XZ)
+cTexture.obj : error LNK2019: unresolved external symbol _SDL_RenderCopy referenced in function "public: void __thiscall cTexture::renderTexture(struct SDL_Renderer *,struct SDL_Texture *,struct SDL_Rect *,struct SDL_Rect *,struct FPoint)" (?renderTexture@cTexture@@QAEXPAUSDL_Renderer@@PAUSDL_Texture@@PAUSDL_Rect@@2UFPoint@@@Z)
+cTexture.obj : error LNK2019: unresolved external symbol _SDL_RenderCopyEx referenced in function "public: void __thiscall cTexture::renderTexture(struct SDL_Renderer *,struct SDL_Texture *,struct SDL_Rect *,struct SDL_Rect *,double,struct SDL_Point *,struct FPoint)" (?renderTexture@cTexture@@QAEXPAUSDL_Renderer@@PAUSDL_Texture@@PAUSDL_Rect@@2NPAUSDL_Point@@UFPoint@@@Z)
+cTexture.obj : error LNK2019: unresolved external symbol _SDL_DestroyTexture referenced in function "public: __thiscall cTexture::~cTexture(void)" (??1cTexture@@QAE@XZ)
+cTexture.obj : error LNK2019: unresolved external symbol _IMG_LoadTexture referenced in function "public: bool __thiscall cTexture::loadTexture(char const *,struct SDL_Renderer *)" (?loadTexture@cTexture@@QAE_NPBDPAUSDL_Renderer@@@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Fotis\source\repos\Programming 1 Project\Debug\Programming 1 Project.exe : fatal error LNK1120: 41 unresolved externals

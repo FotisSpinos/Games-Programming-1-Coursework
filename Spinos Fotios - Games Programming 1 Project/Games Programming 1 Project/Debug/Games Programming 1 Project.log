@@ -1,0 +1,79 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Programming 1 Project.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  cTextureMgr.cpp
+  cTexture.cpp
+  cSprite.cpp
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\csprite.cpp(180): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\csprite.cpp(181): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\csprite.cpp(297): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  cSoundMgr.cpp
+  cSound.cpp
+  cSDL2WNDManager.cpp
+  cSDL2CTRManager.cpp
+  cSceneMgr.cpp
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cscenemgr.cpp(111): warning C4018: '<': signed/unsigned mismatch
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cscenemgr.cpp(120): warning C4018: '<': signed/unsigned mismatch
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cscenemgr.cpp(499): warning C4018: '<': signed/unsigned mismatch
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cscenemgr.cpp(530): warning C4018: '<': signed/unsigned mismatch
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cscenemgr.cpp(564): warning C4018: '<': signed/unsigned mismatch
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cscenemgr.cpp(579): warning C4018: '<': signed/unsigned mismatch
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cscenemgr.cpp(607): warning C4018: '<': signed/unsigned mismatch
+  cRocket.cpp
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\crocket.cpp(28): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\crocket.cpp(35): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\crocket.cpp(36): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\crocket.cpp(38): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\crocket.cpp(39): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+  cGame.cpp
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cgame.cpp(66): warning C4018: '<': signed/unsigned mismatch
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cgame.cpp(74): warning C4018: '<': signed/unsigned mismatch
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cgame.cpp(95): warning C4018: '<': signed/unsigned mismatch
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cgame.cpp(104): warning C4018: '<': signed/unsigned mismatch
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cgame.cpp(116): warning C4018: '<': signed/unsigned mismatch
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cgame.cpp(120): warning C4018: '<': signed/unsigned mismatch
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cgame.cpp(192): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  cFontMgr.cpp
+  cFont.cpp
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cfont.cpp(26): warning C4150: deletion of pointer to incomplete type '_TTF_Font'; no destructor called
+  c:\users\fotis\desktop\sdl2\sdl2_ttf-2.0.14\include\sdl_ttf.h(86): note: see declaration of '_TTF_Font'
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cfont.cpp(40): warning C4150: deletion of pointer to incomplete type '_TTF_Font'; no destructor called
+  c:\users\fotis\desktop\sdl2\sdl2_ttf-2.0.14\include\sdl_ttf.h(86): note: see declaration of '_TTF_Font'
+  cFileHandler.cpp
+  cButtonMgr.cpp
+  cButton.cpp
+  cBullet.cpp
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cbullet.cpp(28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cbullet.cpp(29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cbullet.cpp(34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cbullet.cpp(35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cbullet.cpp(38): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\cbullet.cpp(39): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  cBkGround.cpp
+  cAlienShip.cpp
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\calienship.cpp(22): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\calienship.cpp(33): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\users\fotis\desktop\games programming 1 project final\games programming 1 project\calienship.cpp(94): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  SpaceAdventuresSDL.cpp
+  Generating Code...
+  Games Programming 1 Project.vcxproj -> C:\Users\Fotis\Desktop\Games Programming 1 Project Final\Debug\Games Programming 1 Project.exe
+  copying SDL2.dll to debug directory
+  C:\Users\Fotis\Desktop\SDL2\SDL2-2.0.4\lib\x86\SDL2.dll
+  1 File(s) copied
+  C:\Users\Fotis\Desktop\SDL2\SDL2_image-2.0.1\lib\x86\libjpeg-9.dll
+  C:\Users\Fotis\Desktop\SDL2\SDL2_image-2.0.1\lib\x86\libpng16-16.dll
+  C:\Users\Fotis\Desktop\SDL2\SDL2_image-2.0.1\lib\x86\libtiff-5.dll
+  C:\Users\Fotis\Desktop\SDL2\SDL2_image-2.0.1\lib\x86\libwebp-4.dll
+  C:\Users\Fotis\Desktop\SDL2\SDL2_image-2.0.1\lib\x86\SDL2_image.dll
+  C:\Users\Fotis\Desktop\SDL2\SDL2_image-2.0.1\lib\x86\zlib1.dll
+  6 File(s) copied
+  C:\Users\Fotis\Desktop\SDL2\SDL2_ttf-2.0.14\lib\x86\libfreetype-6.dll
+  C:\Users\Fotis\Desktop\SDL2\SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.dll
+  C:\Users\Fotis\Desktop\SDL2\SDL2_ttf-2.0.14\lib\x86\zlib1.dll
+  3 File(s) copied
+  C:\Users\Fotis\Desktop\SDL2\SDL2_mixer-2.0.1\lib\x86\libFLAC-8.dll
+  C:\Users\Fotis\Desktop\SDL2\SDL2_mixer-2.0.1\lib\x86\libmodplug-1.dll
+  C:\Users\Fotis\Desktop\SDL2\SDL2_mixer-2.0.1\lib\x86\libogg-0.dll
+  C:\Users\Fotis\Desktop\SDL2\SDL2_mixer-2.0.1\lib\x86\libvorbis-0.dll
+  C:\Users\Fotis\Desktop\SDL2\SDL2_mixer-2.0.1\lib\x86\libvorbisfile-3.dll
+  C:\Users\Fotis\Desktop\SDL2\SDL2_mixer-2.0.1\lib\x86\SDL2_mixer.dll
+  C:\Users\Fotis\Desktop\SDL2\SDL2_mixer-2.0.1\lib\x86\smpeg2.dll
+  7 File(s) copied
